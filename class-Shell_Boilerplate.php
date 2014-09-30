@@ -60,7 +60,7 @@ if ( ! class_exists( 'Shell_Boilerplate' ) ) {
 		 */
 		function scripts() {
 
-			wp_register_script( 'boilerplatejs', MAERA_BOILERPLATE_SHELL_URL . '/assets/js/boilerplate.min.js', false, null, true  );
+			wp_register_script( 'boilerplatejs', MAERA_BOILERPLATE_SHELL_URL . '/assets/js/boilerplate.js', false, null, true  );
 			wp_enqueue_script( 'boilerplatejs' );
 
 			wp_register_style( 'boilerplatecss', MAERA_BOILERPLATE_SHELL_URL . '/assets/css/style.css', false, null, true );
